@@ -16,6 +16,7 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <Typography
+        placeholder={""}
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
@@ -59,6 +60,7 @@ export function Navbar() {
 
   return (
     <MTNavbar
+      placeholder={""}
       fullWidth
       shadow={false}
       blurred={false}
@@ -72,6 +74,7 @@ export function Navbar() {
           target="_blank"
           variant="h6"
           color={isScrolling ? "gray" : "white"}
+          placeholder={""}
         >
           ClashOdds
         </Typography>
@@ -85,6 +88,7 @@ export function Navbar() {
           <NavItem>Contact Us</NavItem>
         </ul>
         <IconButton
+          placeholder={""}
           variant="text"
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}
