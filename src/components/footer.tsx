@@ -17,19 +17,21 @@ export function Footer() {
               variant="h5"
               color="white"
               className="mb-4"
+              placeholder={""}
             >
               ClashOdds Journal
             </Typography>
-            <Typography color="white" className="mb-12 font-normal">
+            <Typography color="white" className="mb-12 font-normal" placeholder={""}>
             Unlock the Future of Betting with ClashOdds Journal!
             </Typography>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography variant="h6" color="white" className="mb-3" placeholder={""}>
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
+              placeholder={""}
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -47,6 +49,7 @@ export function Footer() {
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <Typography
+          placeholder={""}
             color="white"
             className="text-center font-normal opacity-75"
           >
