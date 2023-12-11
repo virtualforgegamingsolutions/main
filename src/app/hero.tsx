@@ -58,7 +58,7 @@ function Hero() {
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            ClashOdds isn't just a tool; it's your trusted companion in the
+            ClashOdds isnt just a tool it&apos;s your trusted companion in the
             world of betting, guiding you towards optimal outcomes with every
             wager.
           </Typography>
