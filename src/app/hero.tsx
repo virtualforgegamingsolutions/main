@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -35,6 +36,7 @@ function Hero() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
+              <Link href="https://play.google.com/store/apps/details?id=com.iwkyra.swcclashodds&pcampaignid=web_share" passHref={true}>
               <Button
                 placeholder={""}
                 size="lg"
@@ -50,6 +52,7 @@ function Hero() {
                 />
                 Google Play
               </Button>
+              </Link>
             </div>
           </div>
           <Image

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Typography, IconButton, Button } from "@material-tailwind/react";
+import Link from "next/link";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
@@ -30,6 +31,7 @@ export function Footer() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
+            <Link href="https://play.google.com/store/apps/details?id=com.iwkyra.swcclashodds&pcampaignid=web_share" passHref={true}>
               <Button
               placeholder={""}
                 color="white"
@@ -44,6 +46,7 @@ export function Footer() {
                 />
                 Google Play
               </Button>
+              </Link>
             </div>
           </div>
         </div>
