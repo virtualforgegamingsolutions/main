@@ -61,6 +61,16 @@ export function Footer() {
               VirtualForge Gaming Solution
             </a>
           </Typography>
+
+          <div className="flex gap-2">
+          <Typography
+          placeholder={""}
+            color="white"
+            className="text-center font-normal opacity-75"
+          >
+            <Link href="/privacypolicy">Privacy Policy</Link>
+          </Typography>
+          </div>
         </div>
       </div>
     </footer>
