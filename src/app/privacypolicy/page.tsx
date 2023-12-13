@@ -29,9 +29,9 @@ export default function Privacy() {
           className="mb-2 font-medium uppercase mt-2"
           placeholder={""}
         >
-          This Privacy Policy outlines how SWC - ClashOdds ("we," "our," or
-          "us") collects, uses, and safeguards information obtained from users
-          of our mobile application ("the App"). By using the App, you agree to
+          This Privacy Policy outlines how SWC - ClashOdds (&quot;we,&quot; &quot;our,&quot; or
+            &quot;us&quot;) collects, uses, and safeguards information obtained from users
+          of our mobile application (&quot;the App&quot;). By using the App, you agree to
           the terms of this Privacy Policy.
         </Typography>
 
@@ -51,7 +51,7 @@ export default function Privacy() {
           1. <strong>Non-Personal Information:</strong> We may collect
           non-personal information, such as device information, operating
           system, and usage patterns. This information helps us improve the
-          App's functionality and enhance user experience.
+          App&apos;s functionality and enhance user experience.
         </Typography>
 
         <Typography
@@ -146,7 +146,7 @@ export default function Privacy() {
           className="font-bold uppercase text-xl py-5"
           placeholder={""}
         >
-          Children's Privacy:
+          Children&apos;s Privacy:
         </Typography>
 
         <Typography
@@ -174,7 +174,7 @@ export default function Privacy() {
           placeholder={""}
         >
           We reserve the right to update or modify this Privacy Policy at any
-          time. Any changes will be reflected in the "Effective Date" at the top
+          time. Any changes will be reflected in the &quot;Effective Date&quot; at the top
           of the policy. Your continued use of the App after such modifications
           will constitute your acknowledgment of the modified policy.
         </Typography>
