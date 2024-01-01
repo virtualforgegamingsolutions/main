@@ -36,22 +36,36 @@ function Hero() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
-              <Link href="https://play.google.com/store/apps/details?id=com.iwkyra.swcclashodds&pcampaignid=web_share" passHref={true}>
-              <Button
-                placeholder={""}
-                size="lg"
-                color="white"
-                className="flex justify-center items-center gap-3"
+              <Link href="https://clashodds.tech/r/C-6A9BDEE2" passHref={true}>
+                <Button
+                  placeholder={""}
+                  size="lg"
+                  color="white"
+                  className="flex justify-center items-center gap-3"
+                >
+                  Register
+                </Button>
+              </Link>
+
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.iwkyra.swcclashodds&pcampaignid=web_share"
+                passHref={true}
               >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-google.png"
-                  alt="metamask"
-                  className="w-6 h-6"
-                />
-                Google Play
-              </Button>
+                <Button
+                  placeholder={""}
+                  size="lg"
+                  color="white"
+                  className="flex justify-center items-center gap-3"
+                >
+                  <Image
+                    width={256}
+                    height={256}
+                    src="/logos/logo-google.png"
+                    alt="metamask"
+                    className="w-6 h-6"
+                  />
+                  Google Play
+                </Button>
               </Link>
             </div>
           </div>
