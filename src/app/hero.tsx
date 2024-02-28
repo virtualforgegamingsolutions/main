@@ -36,7 +36,7 @@ function Hero() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
-              <Link href="https://gamepinoy.com/r/C-6A9BDEE2" passHref={true}>
+              <Link href="https://gamepinoy.app/r/C-6A9BDEE2" passHref={true}>
                 <Button
                   placeholder={""}
                   size="lg"
