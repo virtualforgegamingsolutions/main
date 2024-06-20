@@ -8,8 +8,7 @@ export default function page() {
       <div>
         <Link
           href="https://perya888.com/r/C-6A9BDEE2"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full shadow-lg"
-        >
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full shadow-lg">
           Register Now
         </Link>
       </div>
