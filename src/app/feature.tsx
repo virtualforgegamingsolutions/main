@@ -43,7 +43,7 @@ export function Features() {
   return (
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography className="mb-2 font-bold uppercase">
           Your Learning App
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">
